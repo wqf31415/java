@@ -1,4 +1,12 @@
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+
 # javafx-demo/
-javafx-demo/target/
+javafx-demo/target/*
 javafx-demo/pmavenfx.iml
-javafx-demo/.idea/
+javafx-demo/.idea/*
+
