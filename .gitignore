@@ -12,3 +12,6 @@ javafx-demo/pmavenfx.iml
 javafx-demo/.idea
 javafx-demo/.idea/*
 
+# javafx-demo/HelloFx/
+javafx-demo/HelloFx/out
+javafx-demo/HelloFx/.idea
