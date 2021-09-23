@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <GridPane>
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: aaaaaa; -fx-border-color: ;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <children>
+                  <TextField id="username" layoutX="46.0" layoutY="14.0" prefHeight="23.0" prefWidth="147.0" />
+                  <PasswordField id="password" layoutX="46.0" layoutY="44.0" prefHeight="23.0" prefWidth="147.0" />
+                  <CheckBox id="remember_pwd" layoutX="120.0" layoutY="75.0" mnemonicParsing="false" text="记住密码" />
+                  <Label layoutX="7.0" layoutY="18.0" text="用户名" />
+                  <Label layoutX="7.0" layoutY="48.0" text="密码" />
+                  <Button id="loginbtn" layoutX="44.0" layoutY="96.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="113.0" text="登陆" />
+               </children>
+            </Pane>
+         </children>
+      </GridPane>
+   </children>
+</StackPane>
