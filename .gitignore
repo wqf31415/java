@@ -6,8 +6,8 @@
 
 
 # javafx-demo/
-javafx-demo/target
-javafx-demo/target/*
+javafx-demo/mavenfx/target/
+javafx-demo/mavenfx/target/*
 javafx-demo/pmavenfx.iml
 javafx-demo/.idea
 javafx-demo/.idea/*
